@@ -60,8 +60,9 @@ header nav ul li:hover::after {
 }
 
 .container {
-    height: 100vh;
-    position: relative;
+    min-height: 100vh;
+    height: auto;
+    position: 100px;
     background: linear-gradient(135deg, #0f0f1e 0%, #1f1f3a 100%);
 }
 
@@ -360,6 +361,34 @@ header nav ul li:hover::after {
   .btn {
     font-size: 0.9rem;
     padding: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-name {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  header nav ul {
+    gap: 20px;
+    font-size: 0.85rem;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .arrows {
+    width: 100%;
+    padding: 0 10px;
   }
 }
 
