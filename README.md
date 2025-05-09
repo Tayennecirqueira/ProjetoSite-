@@ -42,3 +42,5 @@ Este é um site no estilo landing page com visual futurista, criado com HTML, CS
 🌟Botões com <strong>efeitos</strong> ao passar o mouse;
 
 🌟Navegação <strong>intuitiva</strong> entre seções com setas e indicadores.
+
+-
