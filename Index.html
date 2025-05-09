@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Keep Control</title>
+</head>
+
+
+<body>
+     
+    <header>
+        <div class="logo">Keep Control</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+     </header>
+     
+<!--Caixa para colocar todas as informações-->
+
+     <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        
+        <div class="list">
+            <!--lista dos itens que ficam passando no carrossel-->
+            <div class="item active">
+            <!--Primeira div será aque está ativa na tela, o que sempre será mostrado-->
+                <div class="product-img"> 
+                    <img src="./img/Controle.png" alt="Controle">      
+                </div> 
+                
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">DualSense Edge™ Wireless Controller</p>
+                    <p class="description">Eleve o desempenho do DualSense e do controle sem fio DualSense Edge em seu PC com Windows. Atualize o firmware do controle e personalize totalmente o controle sem fio DualSense Edge a partir de seu PC.</p>
+                    <button class="btn" onclick="window.location.href='detalhes.html'">Saiba Mais</button>
+                </div>
+            </div>
+
+
+
+            <div class="item">
+                <div class="product-img"> 
+                    <img src="./img/Vision.png" alt="Vision">      
+                </div> 
+                
+                <div class="content">
+                    <p class="product-tag">Alta Performace</p>
+                    <p class="product-name">Vision Pro</p>
+                    <p class="description">Vision Pro é alimentado por chips que processam as informações visuais e de áudio “oito vezes mais rápido do que um piscar de olhos”, para dar a impressão de que as experiências projetadas estão acontecendo em “tempo real”.</p>
+                    <button class="btn" onclick="window.location.href='vision.html'">Saiba Mais</button>
+                </div>
+            </div>
+
+
+
+            <div class="item">
+                <div class="product-img"> 
+                    <img src="./img/Voltante.png" alt="Volante">      
+                </div> 
+                
+                <div class="content">
+                    <p class="product-tag">Imersão total</p>
+                    <p class="product-name">Volante Gamer</p>
+                    <p class="description">Com engenharia, vibração, design e amor por jogos de corrida, sua experiência será elevada a uma simulação de corridas em outros patamares.</p>
+                    <button class="btn" onclick="window.location.href='volante.html'">Saiba Mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                  </svg>
+            </button>
+
+                
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                  </svg>
+            </button>
+
+
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+
+        </div>
+
+     </main>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
