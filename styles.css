@@ -426,3 +426,14 @@ header nav ul li:hover::after {
     margin-top: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .indicators {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+}
