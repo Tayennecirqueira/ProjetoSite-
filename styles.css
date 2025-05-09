@@ -452,7 +452,7 @@ header nav ul li:hover::after {
   }
 
   .numbers {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
