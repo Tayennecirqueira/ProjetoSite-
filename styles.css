@@ -36,6 +36,7 @@ header {
 header nav ul {
     display: flex;
     gap: 48px;
+    margin-right: auto;
 }
 
 header nav ul li {
