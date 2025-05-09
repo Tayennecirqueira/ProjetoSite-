@@ -447,12 +447,12 @@ header nav ul li:hover::after {
   }
 
   .btn {
-    margin-bottom: 5px; /* Aproxima o botão dos números */
+    margin-bottom: 10px; /* Aproxima o botão dos números */
     align-self: center;
   }
 
   .numbers {
-    font-size: 1rem;
+    font-size: 0.3rem;
     text-align: center;
   }
 }
