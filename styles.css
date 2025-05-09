@@ -353,18 +353,4 @@ header nav ul li:hover::after {
         height: auto;
         padding-bottom: 100px; /* evita corte de conteúdo */
     }
-    
-  .product-name {
-    font-size: 1.8rem;
-  }
-
-  .description {
-    font-size: 0.9rem;
-  }
-
-  .btn {
-    font-size: 0.9rem;
-    padding: 10px 14px;
-  }
 }
-
