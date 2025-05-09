@@ -412,6 +412,7 @@ header nav ul li:hover::after {
     text-align: center;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
   }
 
   .content {
@@ -422,6 +423,6 @@ header nav ul li:hover::after {
   }
 
   .product-img {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
