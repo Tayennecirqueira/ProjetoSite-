@@ -43,4 +43,14 @@ Este é um site no estilo landing page com visual futurista, criado com HTML, CS
 
 🌟Navegação <strong>intuitiva</strong> entre seções com setas e indicadores.
 
--
+##
+
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="800px" 
+    style="padding-right: 10px;" 
+    src="./img/foto.png"
+/>
+
