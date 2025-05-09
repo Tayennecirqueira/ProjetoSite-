@@ -391,3 +391,37 @@ header nav ul li:hover::after {
   }
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 20px 20px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  header nav ul {
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-img {
+    margin-top: 40px;
+  }
+}
