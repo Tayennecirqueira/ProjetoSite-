@@ -51,6 +51,50 @@ Este é um site no estilo landing page com visual futurista, criado com HTML, CS
     title="CSS"
     width="1000px" 
     style="padding-right: 10px;" 
-    src="./img/foto.png"
+    src="./img/foto1.png"
 />
 
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="1000px" 
+    style="padding-right: 10px;" 
+    src="./img/foto4.png"
+/>
+
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="1000px" 
+    style="padding-right: 10px;" 
+    src="./img/foto2.png"
+/>
+
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="1000px" 
+    style="padding-right: 10px;" 
+    src="./img/foto5.png"
+/>
+
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="1000px" 
+    style="padding-right: 10px;" 
+    src="./img/foto3.png"
+/>
+
+<img 
+    align="left" 
+    alt="CSS" 
+    title="CSS"
+    width="1000px" 
+    style="padding-right: 10px;" 
+    src="./img/foto6.png"
+/>
