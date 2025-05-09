@@ -439,21 +439,20 @@ header nav ul li:hover::after {
   .indicators {
     position: relative;
     bottom: auto;
-    margin-top: 40px;
+    margin-top: 10px; /* Reduzido */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
   }
 
   .btn {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Aproxima o botão dos números */
     align-self: center;
   }
 
   .numbers {
-    font-size: 2.5rem;
-    color: rgba(255, 255, 255, 0.2);
+    font-size: 2rem;
     text-align: center;
   }
 }
