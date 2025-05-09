@@ -413,17 +413,25 @@ header nav ul li:hover::after {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 60px 20px 100px; /* espaço acima e abaixo */
   }
 
   .content {
     width: 100%;
-    padding: 20px;
     align-items: center;
     justify-content: center;
+    padding: 0;
+    gap: 20px;
   }
 
   .product-img {
     margin-top: 20px;
+  }
+
+  .product-tag,
+  .product-name,
+  .description {
+    max-width: 90%;
   }
 }
 
