@@ -447,7 +447,7 @@ header nav ul li:hover::after {
   }
 
   .btn {
-    margin-bottom: 5px; /* Aproxima o botão dos números */
+    margin-bottom: 30px; /* Aproxima o botão dos números */
     align-self: center;
   }
 
