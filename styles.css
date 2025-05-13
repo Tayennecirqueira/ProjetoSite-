@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #0f0f1e;
+  background-color: #f1430ef5;
   color: #fff;
   font-size: 16px;
   overflow-x: hidden;
@@ -30,8 +30,8 @@ header {
   font-family: "Orbitron", sans-serif;
   font-size: 2rem;
   font-weight: 900;
-  color: #39FF14;
-  text-shadow: 0 0 10px rgba(57, 255, 20, 1);
+  color: #2a0258;
+  text-shadow: 0 0 10px rgb(122, 20, 255);
 }
 
 header nav ul {
@@ -54,7 +54,7 @@ header nav ul li::after {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: #39FF14;
+  background-color: #7700ff;
   transition: width 0.2s ease;
 }
 
@@ -67,7 +67,7 @@ header nav ul li:hover::after {
   min-height: 100vh;
   height: 100dvh;
   position: relative;
-  background: linear-gradient(135deg, #0f0f1e 0%, #1f1f3a 100%);
+  background: linear-gradient(135deg,#f1430ef5 0%, #f37b2c 100%);
   overflow: hidden;
 }
 
@@ -77,7 +77,7 @@ header nav ul li:hover::after {
   width: 500px;
   height: 500px;
   border-radius: 70%;
-  background: radial-gradient(circle, rgb(82, 50, 97) 0%, rgba(15, 15, 30, 0) 70%);
+  background: radial-gradient(circle, rgb(247, 162, 105) 0%, rgba(170, 97, 60, 0) 60%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -133,7 +133,7 @@ header nav ul li:hover::after {
 .product-img img {
   max-width: 80%;
   max-height: 60%;
-  filter: drop-shadow(0 0 30px rgba(82, 50, 97));
+  filter: drop-shadow(0 0 30px rgb(97, 67, 50));
   transform: translate(400px);
   opacity: 0;
   transition: transform 0.6s ease, opacity 0.6s ease;
@@ -158,7 +158,7 @@ header nav ul li:hover::after {
 .product-tag {
   font-size: 1rem;
   text-transform: uppercase;
-  color: #39FF14;
+  color: #2a0258;
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -182,7 +182,7 @@ header nav ul li:hover::after {
 
 .description {
   font-size: 1rem;
-  color: #b8b8d0;
+  color: #ececf3;
   line-height: 1.6;
   margin-bottom: 30px;
   max-width: 600px;
@@ -199,7 +199,7 @@ header nav ul li:hover::after {
 
 .btn {
   padding: 12px 16px;
-  background: linear-gradient(50deg, #39FF14, #4c39b9);
+  background: linear-gradient(50deg, #4a039b, #695abe);
   border-radius: 30px;
   color: #000;
   font-size: 1rem;
@@ -211,9 +211,9 @@ header nav ul li:hover::after {
 }
 
 .btn:hover {
-  background: linear-gradient(50deg, #39FF14, #4c39b9);
+  background: linear-gradient(50deg, #f1430ef5, #c8c1ec);
   transform: scale(1.05);
-  color: white;
+  color: black;
 }
 
 .arrows {
@@ -233,12 +233,12 @@ header nav ul li:hover::after {
   border-radius: 50%;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(71, 51, 141, 0.3);
+  border: 1px solid rgba(245, 222, 196, 0.3);
 }
 
 .arrow-btn:hover {
-  background-color: rgba(71, 51, 141, 0.3);
-  border-color: #4c39b9;
+  background-color: rgba(228, 179, 138, 0.3);
+  border-color: #4a039b;
 }
 
 .indicators {
@@ -273,7 +273,7 @@ header nav ul li:hover::after {
 }
 
 .dot.active {
-  background-color: #39FF14;
+  background-color: #2a0258;
   box-shadow: 0 0 10px rgba(71, 51, 141, 0.3);
 }
 
@@ -289,7 +289,7 @@ header nav ul li:hover::after {
 .circle {
   position: absolute;
   border-radius: 50%;
-  border: 1px solid rgba(108, 82, 202, 0.3);
+  border: 1px solid rgba(253, 253, 253, 0.3);
   pointer-events: none;
   z-index: 1;
 }
